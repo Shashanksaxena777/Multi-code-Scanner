@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".QRactivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/img_view"
+        android:src="@drawable/baseline_qr_code_scanner_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Text_View"
+        android:textColor="#090707"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:hint="@string/hint_view"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#8A173E"
+        android:paddingTop="10dp"
+        android:id="@+id/btntxt"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_view"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginTop="15dp"
+        android:id="@+id/home"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="Text_View">LAST SCANNED RESULTS</string>
+    <string name="img_view">Scan</string>
+    <string name="btn_view">Go Back</string>
+    <string name="hint_view">Your result will appear here......</string>
+    <string name="Text1">QR and Barcode Scanner</string>
+    <string name="btn1">Scan</string>
+    <string name="Text2">Scan QR codes and barcodes quickly and easily with our app.</string>
+    <string name="desc">Scan code</string>
+
+
+</resources>
